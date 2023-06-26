@@ -1,6 +1,7 @@
 class AppStrings {
   static const String username = "Username";
   static const String password = "Password";
+  static const String rpassword = "Retype Password";
   static const String phonenumber = "Phone Number";
   static const String changepassword = "Change Password";
   static const String helpername = "Helper Name";

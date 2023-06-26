@@ -3,6 +3,8 @@ import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:sizer/sizer.dart';
 
 import 'Screens/emergency_screen.dart';
+import 'Screens/login_screen.dart';
+import 'Screens/register_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: EmergencyScreen(),
+          home: RegisterScreen(),
 
           //SettingsContainer(value: false, title: App_Strings.bike, icon: Icons.location_on,valuecolor: true,) ,
         );

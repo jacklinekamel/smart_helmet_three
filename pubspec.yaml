@@ -31,6 +31,7 @@ dependencies:
   sizer:
   country_code_picker:
   get:
+  animations:
   flutter:
     sdk: flutter
 

@@ -59,7 +59,7 @@ class EmergencyScreen extends StatelessWidget {
                 ),
                 TextButton(
                     onPressed: () {},
-                    child: Text(
+                    child: const Text(
                       AppStrings.pickfrom,
                       style: TextStyle(color: AppColors.blueblack),
                     )),

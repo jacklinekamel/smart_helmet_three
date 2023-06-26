@@ -18,7 +18,7 @@ class MainTextfield extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20),
       margin: const EdgeInsets.symmetric(horizontal: 2),
       height: 6.h,
-      width: country ? 30.w : 70.w,
+      width: country ? 35.w : 80.w,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(4.h),
         color: AppColors.white,

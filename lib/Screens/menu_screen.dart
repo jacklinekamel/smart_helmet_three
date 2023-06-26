@@ -7,6 +7,7 @@ import 'package:smart_hemlet/App_images.dart';
 import '../App_Strings.dart';
 import '../widgets/mainButton.dart';
 import '../widgets/setting_container.dart';
+import 'emergency_screen.dart';
 import 'login_screen.dart';
 import 'profile_screen.dart';
 
@@ -150,7 +151,9 @@ class MenuScreen extends StatelessWidget {
               ),
               MainButton(
                 title: AppStrings.emergency,
-                onPressed: () {},
+                onPressed: () {
+                  Get.to(EmergencyScreen());
+                },
                 icon: Icons.star,
                 backgroundColor: AppColors.blueblack,
                 width: 65.w,

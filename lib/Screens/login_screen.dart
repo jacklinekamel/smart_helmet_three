@@ -47,6 +47,7 @@ class LoginScreen extends StatelessWidget {
                       Flexible(
                           child: MainTextfield(
                         hint: AppStrings.phonenumber,
+                            keyboard: TextInputType.phone,
                       )),
                     ],
                   ),
