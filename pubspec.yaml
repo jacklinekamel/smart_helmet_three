@@ -30,6 +30,7 @@ environment:
 dependencies:
   sizer:
   country_code_picker:
+  pinput:
   get:
   animations:
   flutter:

@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:sizer/sizer.dart';
 
-import 'Screens/emergency_screen.dart';
-import 'Screens/login_screen.dart';
 import 'Screens/register_screen.dart';
 
 void main() {

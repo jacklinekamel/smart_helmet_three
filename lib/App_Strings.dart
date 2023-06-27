@@ -1,5 +1,6 @@
 class AppStrings {
   static const String username = "Username";
+  static const String register = "Register";
   static const String password = "Password";
   static const String rpassword = "Retype Password";
   static const String phonenumber = "Phone Number";
@@ -31,6 +32,7 @@ class AppStrings {
   static const String pickfrom = "Pick from contacts";
   static const String forgotpassword = "Forgot Password?";
   static const String Smart = "Smart Helmet Mobile App";
+  static const String enterotp = "Enter the OTP sent to your number";
   static const String emergency3lines =
       "Emergency Contact is crucial for your safety. It is the first person we will get in touch with in an emergency/accident situation.";
 }
