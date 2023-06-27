@@ -1,7 +1,8 @@
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:smart_hemlet/App_colors.dart';
+
+import '../../utilities/App_colors.dart';
 
 class MainTextfield extends StatelessWidget {
   String? hint;

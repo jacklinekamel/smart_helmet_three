@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
 
-import '../App_Strings.dart';
-import '../App_colors.dart';
+import '../../utilities/App_colors.dart';
+import '../utilities/App_Strings.dart';
 
 class SettingsContainer extends StatelessWidget {
   final RxBool value;
@@ -66,33 +66,38 @@ class SettingsContainer extends StatelessWidget {
                         ),
                       )
                     : Row(
-                      children: [
-                        Container(
-                  height: 10.h,
-                  decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                        color: Colors.white,
-                        border: Border.all(
-                          color: valuecolor ?AppColors.green: AppColors.red,
-                          width: 2.0, // Set border width here
-                        ),
-                  ),
-                  child: Padding(
-                        padding:  EdgeInsets.all(3),
-                        child: Container(
-                          // padding: EdgeInsets.all(10),
-                          width: 3.w,
-                          decoration: BoxDecoration(
-                            shape: BoxShape.circle,
-                            color: valuecolor ? AppColors.green: AppColors.red,
+                        children: [
+                          Container(
+                            height: 10.h,
+                            decoration: BoxDecoration(
+                              shape: BoxShape.circle,
+                              color: Colors.white,
+                              border: Border.all(
+                                color: valuecolor
+                                    ? AppColors.green
+                                    : AppColors.red,
+                                width: 2.0, // Set border width here
+                              ),
+                            ),
+                            child: Padding(
+                              padding: EdgeInsets.all(3),
+                              child: Container(
+                                // padding: EdgeInsets.all(10),
+                                width: 3.w,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: valuecolor
+                                      ? AppColors.green
+                                      : AppColors.red,
+                                ),
+                              ),
+                            ),
                           ),
-
-                        ),
-                  ),
-                ),
-                        SizedBox(width: 5.w,)
-                      ],
-                    ),
+                          SizedBox(
+                            width: 5.w,
+                          )
+                        ],
+                      ),
               ],
             ),
           ),

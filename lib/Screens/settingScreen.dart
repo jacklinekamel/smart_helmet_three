@@ -1,9 +1,8 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
-import 'package:smart_hemlet/App_images.dart';
-import 'package:smart_hemlet/App_Strings.dart';
-import '../widgets/mainButton.dart';
+
+import '../utilities/App_Strings.dart';
+import '../utilities/App_images.dart';
 import '../widgets/mainTextfield.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -25,24 +24,36 @@ class SettingsScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Image.asset(AppImages.logofaded),
-
                   ],
                 ),
                 SizedBox(height: 10.h),
                 Text(
                   AppStrings.settings,
-                  style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20.sp, color: Colors.white, fontFamily: '<bakery.otf>', ),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 20.sp,
+                    color: Colors.white,
+                    fontFamily: '<bakery.otf>',
+                  ),
                 ),
                 SizedBox(height: 2.5.h),
-                MainTextfield( hint: AppStrings.username,),
+                MainTextfield(
+                  hint: AppStrings.username,
+                ),
                 SizedBox(height: 0.1.h),
-                MainTextfield( hint: AppStrings.changepassword,),
+                MainTextfield(
+                  hint: AppStrings.changepassword,
+                ),
                 SizedBox(height: 0.1.h),
-                MainTextfield( hint: AppStrings.helpername,),
+                MainTextfield(
+                  hint: AppStrings.helpername,
+                ),
                 SizedBox(height: 0.1.h),
-                MainTextfield( hint: AppStrings.helpernamber,),
+                MainTextfield(
+                  hint: AppStrings.helpernamber,
+                ),
                 SizedBox(height: 2.5.h),
-             //   MainButton(title: AppStrings.save, onPressed: () {  },),
+                //   MainButton(title: AppStrings.save, onPressed: () {  },),
               ],
             ),
           ],

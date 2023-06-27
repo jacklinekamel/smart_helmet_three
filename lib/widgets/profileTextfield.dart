@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sizer/sizer.dart';
 
-import '../App_colors.dart';
+import '../../utilities/App_colors.dart';
 
 class ProfileTextfield extends StatelessWidget {
   String title;

@@ -5,9 +5,9 @@ import 'package:sizer/sizer.dart';
 import 'package:smart_hemlet/Screens/login_screen.dart';
 import 'package:smart_hemlet/widgets/mainTextfield.dart';
 
-import '../App_Strings.dart';
-import '../App_colors.dart';
-import '../App_images.dart';
+import '../../utilities/App_colors.dart';
+import '../utilities/App_Strings.dart';
+import '../utilities/App_images.dart';
 import 'menu_screen.dart';
 
 class CounterController extends GetxController {

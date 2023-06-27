@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:sizer/sizer.dart';
 
-import 'Screens/register_screen.dart';
+import 'Screens/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, deviceType) {
         return GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: RegisterScreen(),
+          home: SplashScreen(),
 
           //SettingsContainer(value: false, title: App_Strings.bike, icon: Icons.location_on,valuecolor: true,) ,
         );

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sizer/sizer.dart';
-import 'package:smart_hemlet/App_Strings.dart';
-import 'package:smart_hemlet/App_colors.dart';
 
+import '../../utilities/App_colors.dart';
+import '../utilities/App_Strings.dart';
 import '../widgets/mainButton.dart';
 import '../widgets/profileTextfield.dart';
 
